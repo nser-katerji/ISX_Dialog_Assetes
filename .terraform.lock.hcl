@@ -5,6 +5,7 @@ provider "registry.terraform.io/mypurecloud/genesyscloud" {
   version     = "1.22.0"
   constraints = "~> 1.22.0"
   hashes = [
+    "h1:fE2vb64uOJjeCCPhqs0OBtXqPRkngAnAc8CATSDf2Fk=",
     "h1:uL0qom5krNXHVnYXj+NwI3JvB2a21ZnY1W1CfXiW8g0=",
     "zh:14acabcc7be835beb8e1297dd9ebf92f6fe29fb16a111c2ee44ed47a49257417",
     "zh:30f174752072bf5f23d0fee4d029e24abacbb4239ed58f72dfe58a4acbc44c52",
