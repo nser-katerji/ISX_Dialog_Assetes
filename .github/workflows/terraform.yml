@@ -80,7 +80,7 @@ jobs:
 
     # Step 6: Save Terraform Output to File
     - name: Save genesyscloud.tf.json
-      run: ./geneyscloud/genesyscloud.tf.json > terraform-output.json
+      run: genesyscloud.tf.json > terraform-output.json
 
     # Step 7: Push Terraform Output Back to Repository
     - name: Commit and Push Output
