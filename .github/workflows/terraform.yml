@@ -78,15 +78,11 @@ jobs:
       if: github.event_name == 'workflow_dispatch' # Only apply manually
       run: terraform apply -input=false plan.out
 
-    # Step 6: Save Terraform Output to File
-    - name: Save genesyscloud.tf.json
-      run: genesyscloud.tf.json > terraform-output.json
-
     # Step 7: Push Terraform Output Back to Repository
     - name: Commit and Push Output
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add terraform-output.json
+        git add --all
         git commit -m "Add Terraform output from latest run"
         git push
