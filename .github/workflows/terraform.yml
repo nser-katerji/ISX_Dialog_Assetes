@@ -47,52 +47,32 @@ name: Terraform Automation
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch
-  workflow_dispatch:  # Allow manual execution
+      - main
 
 jobs:
   terraform:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Set up Terraform
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.5.3  # Adjust to your required version
+          terraform_version: 1.5.3
 
-      # Step 3: Initialize Terraform
-      - name: Terraform Init
-        run: terraform init
-
-      # Step 4: Run Terraform Plan and Save Output as JSON
-      - name: Terraform Plan (Generate JSON)
-        run: terraform plan -out=tfplan && terraform show -json tfplan > ./genesyscloud/genesyscloud.tf.json
-
-      # Step 5: Apply Terraform (Optional, manual trigger only)
-      - name: Terraform Apply
-        if: github.event_name == 'workflow_dispatch'  # Apply only if manually triggered
-        run: terraform apply -input=false tfplan
-
-      # Step 6: Export Genesys Data to JSON
-      - name: Export Genesys Data
+      - name: Run Terraform
         run: |
-          # Assuming Terraform outputs Genesys data to genesys_data.json
-          terraform output genesys_data > ./genesyscloud/genesys_data.json
+          terraform init
+          terraform apply -auto-approve
 
-      # Step 7: Move Output JSON File to Root Directory (Optional)
-      - name: Move Genesys Data JSON to Root Directory
-        run: mv ./genesyscloud/genesys_data.json ./genesys_data.json
+      - name: Check generated files
+        run: ls -R genesyscloud
 
-      # Step 8: Commit and Push the Generated JSON File
-      - name: Commit and Push Genesys Data JSON
+      - name: Commit and push exported files
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add ./genesys_data.json
-          git commit -m "Update Genesys Data JSON output"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add genesyscloud/*
+          git commit -m "Add exported Terraform files"
           git push
