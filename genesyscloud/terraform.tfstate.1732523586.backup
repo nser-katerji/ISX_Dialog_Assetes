@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.5.3",
-  "serial": 1,
+  "serial": 0,
   "lineage": "27b7def6-dd23-3ec0-fc09-1335535ce37f",
   "outputs": {},
   "resources": [
@@ -9,7 +9,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "AWS_S3_Recording_Bulk_Actions_Integration_2752616418",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -33,7 +33,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Agent_Scripting_Data_Service_2860904688",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -56,7 +56,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Amazon_EventBridge_Source_1338165561",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -79,7 +79,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Amazon_EventBridge_Source_Dialog_POC_3827720213",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -102,7 +102,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Amazon_EventBridge_Source_test1_1458076808",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -125,7 +125,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Amazon_Event_Bridge_Survey_Orchestration_3485554485",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -148,7 +148,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Automated_Callback_2167641346",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -171,7 +171,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Bulk_Skills_Administration_1166624565",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -194,7 +194,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Callflow_Data_Service_2942616978",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -217,7 +217,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Chat_Translation_Integration_via_Intento_1184906737",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -240,7 +240,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Client_Application__1__4234179500",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -263,7 +263,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Client_Application__Nuno_Test__2904573801",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -286,7 +286,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Coworker_Assist_4187482246",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -309,7 +309,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "DIALOG_SMTP_Server_1835580628",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -333,7 +333,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Data_Privacy_Management_Console_3091184921",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -356,7 +356,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Email_Center-_SB_Testing_2486204871",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -379,7 +379,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Email_Center_-_From_App_foundry_2337366823",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -402,7 +402,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Email_Ninja_1695022311",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -425,7 +425,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Email_Ninja_Sandbox_3388778054",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -448,7 +448,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "GDPR_Division_Search_94797889",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -471,7 +471,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Cloud_Data_Actions_548992367",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -495,7 +495,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Cloud_Data_Actions_Direct_Routing_4099490244",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -519,7 +519,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Cloud_Data_Actions__1__833671661",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -542,7 +542,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Cloud_Data_Actions__2__884004436",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -565,7 +565,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Cloud_Monitoring_1842883612",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -588,7 +588,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Genesys_Knowledge_Portal_3803881213",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -611,7 +611,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "IMAP_Server_3581885597",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -634,7 +634,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Intento_Messaging_Translator_1435980624",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -657,7 +657,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget_1462625269",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -680,7 +680,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget__1__1973838803",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -703,7 +703,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget__2__1957061198",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -726,7 +726,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget__3__1940283645",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -749,7 +749,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget__4__1923506024",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -772,7 +772,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Interaction_Widget__5__1906728327",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -795,7 +795,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Language_Switcher_DEMO_2485942269",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -818,7 +818,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Media_Switcher_2949944000",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -841,7 +841,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Mosaik_Tagging_1988447540",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -864,7 +864,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Private_Genesys_Cloud_Embeddable_Framework_1455075472",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -887,7 +887,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "PureSocial",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -910,7 +910,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "RFC_Tool_3786868894",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -933,7 +933,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "SAP_Integration_Widget_4248526295",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -956,7 +956,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "SMS_Web_Services_Data_Actions_1677652431",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -980,7 +980,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "SOAP_Adapter_1581839549",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1003,7 +1003,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "SOAP_Adapter_Data_Action_2256818503",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1027,7 +1027,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "StockcheckAvailability",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1051,7 +1051,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Syndeo_Messaging_Connector_-_Genesys_Cloud_APIs_958466317",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1075,7 +1075,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "Syndeo_Messaging_Connector_-_REST_APIs_775260458",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1098,7 +1098,7 @@
       "mode": "managed",
       "type": "genesyscloud_integration",
       "name": "User_Templates_1847953277",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1121,7 +1121,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Altreb_Antioch_Raul_genesys_com_4073464915",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1152,7 +1152,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Harsha_Belur_Ashok_genesys_com_3377487542",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1197,7 +1197,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Jean_Alexis_Dulay_genesys_com_45030378",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1228,7 +1228,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Laurent_Pret_genesys_com_3224743020",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1282,7 +1282,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Maikel_Beerens_genesys_com_228681623",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1313,7 +1313,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Pavithra_Girirajanna_genesys_com_2583587785",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1344,7 +1344,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Raymond_Marchand_genesys_com_3531735066",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1375,7 +1375,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Tanuj_Kothari_genesys_com_2097505566",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1406,7 +1406,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Tytus_Bunka_genesys_com_312749222",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1437,7 +1437,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "Vikashini_Loganathan_genesys_com_51830341",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1468,7 +1468,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "alaeddine_jmila_genesys_com_3446166190",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1499,7 +1499,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "amit_kumar16_ingka_com_3872316414",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1530,7 +1530,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "anna_kack1_ingka_ikea_com_4244439775",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1565,7 +1565,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "annatestikea_gmail_com_2778193602",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1596,7 +1596,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "antonio_arfe1_ingka_com_1026943487",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1627,7 +1627,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "arvind_gupta2_ingka_com_610165725",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1658,7 +1658,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "axel_goteman_ingka_com_3811824575",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1689,7 +1689,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "aziz_surmeli_ingka_ikea_com_4256799695",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1720,7 +1720,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "bass_ikea_com_4099585611",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1751,7 +1751,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "bipin_chacko_ingka_com_3472755621",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1788,7 +1788,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "borivoj_rolovic_ingka_ikea_com_4042168859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1819,7 +1819,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "cecilia_agahi_boberg_ingka_ikea_com_3853569845",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1850,7 +1850,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "charlie_rydholm_ingka_com_2933720677",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1887,7 +1887,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "chris_thornton_ingka_ikea_com_2388306375",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1918,7 +1918,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "chris_wild_ingka_ikea_com_1253566165",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -1987,7 +1987,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "daniel_crespo_ingka_ikea_com_3873443859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2018,7 +2018,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "daniel_evans_ingka_ikea_com_157098862",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2049,7 +2049,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "danny_chorley_ingka_ikea_com_1968271356",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2096,7 +2096,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "david_nilsson2_ingka_ikea_com_56941684",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2150,7 +2150,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "deepti_gupta2_ingka_com_3316421112",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2181,7 +2181,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "devanshi_genesys_com_3011029244",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2212,7 +2212,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "dominika_tavernova-turisanova_ingka_ikea_com_399371637",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2243,7 +2243,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "ekaterina_kononova_ingka_ikea_com_2036346015",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2274,7 +2274,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "elango_sj_genesys_com_4184930861",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2305,7 +2305,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "enes_alisa_ingka_ikea_com_183938531",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2336,7 +2336,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gdpr2_ikea_com_3041253859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2367,7 +2367,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gdpr_test_ikea_com_262472835",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2398,7 +2398,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gdpr_test_ikea_com_4210332496",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2429,7 +2429,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gerardandre_breivik_ingka_ikea_com_1347123535",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2462,7 +2462,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gero_haug_ingka_ikea_com_911041136",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2493,7 +2493,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "gopalreddy_pulakunta_ingka_com_99441618",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2524,7 +2524,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "harsha_belur_ashok_test_genesys_com_1341600767",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2577,7 +2577,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "himanshu_tiwari1_ingka_ikea_com_3369407284",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2616,7 +2616,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "isabel_clemente_magana_ingka_ikea_com_2361385048",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2647,7 +2647,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "isxautomation_gmail_com_2298643025",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2678,7 +2678,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "jessica_bjermer1_ingka_ikea_com_320537554",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2709,7 +2709,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "joakim_skalberg_genesys_com_3910624908",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2740,7 +2740,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "john_stapeley_ingka_ikea_com_2504790556",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2771,7 +2771,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "keith_griffin1_ingka_com_1507431387",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2802,7 +2802,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "lokeshwari_jayaraman_ingka_ikea_com_2820515905",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2865,7 +2865,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "magnus_angser1_ingka_ikea_com_1391179694",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2896,7 +2896,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "marcel_urrutia_nilsson_ingka_com_3687014012",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2927,7 +2927,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "martin_hultman_ingka_ikea_com_1979478014",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2958,7 +2958,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "martin_notodden_ingka_ikea_com_2964734638",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -2989,7 +2989,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "mazen_saeed1_ingka_ikea_com_882845012",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3045,7 +3045,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "michael_daly_ingka_com_134670787",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3076,7 +3076,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "minli_xu_andersson_ingka_ikea_com_835250505",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3107,7 +3107,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "mohamed_nabil_hafez_ingka_ikea_com_2154619583",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3138,7 +3138,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "mohammad_kashif1_ingka_ikea_com_3518056687",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3171,7 +3171,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "mrtest_ikea_com_3389180835",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3202,7 +3202,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "natalia_shumakova1_ingka_com_3772982904",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3233,7 +3233,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "neil_syndeo_cx_2051929816",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3264,7 +3264,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "niklas_leidzen_ingka_ikea_com_2053285601",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3295,7 +3295,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "nser_katerji_ingka_ikea_com_3274852138",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3340,7 +3340,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "nuno_rodrigues2_ingka_com_741182740",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3371,7 +3371,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "ozlem_yakar_ingka_ikea_com_489125379",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3402,7 +3402,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "pete_hoyle1_gmail_com_1745268380",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3433,7 +3433,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "pete_hoyle_genesys_com_1089448153",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3464,7 +3464,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "phelim_lennon_ingka_com_702027585",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3495,7 +3495,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "prasad_sawant1_ingka_com_2304854140",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3530,7 +3530,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "pratibha_bevinamatti_ingka_ikea_com_1904776481",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3569,7 +3569,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "radhika_saravgi_ingka_ikea_com_189342971",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3608,7 +3608,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "rene_guillot_genesys_com_1258304352",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3639,7 +3639,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "richa_gupta3_ingka_ikea_com_785115919",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3670,7 +3670,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "rjv_genesys_com_1416001142",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3721,7 +3721,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "robert_tonyka_genesys_com_1739414718",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3752,7 +3752,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "robert_veenendaal_genesys_com_2660596675",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3824,7 +3824,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "robin_sachdeva1_ingka_com_974881552",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3859,7 +3859,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "sandbox-user_ikea_ocm_692101565",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3890,7 +3890,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "sean_davids_ingka_ikea_com_705728052",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3921,7 +3921,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "seif_tabaja_ingka_ikea_com_1060838408",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3952,7 +3952,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "shazia_shafique_genesys_com_1153840280",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -3983,7 +3983,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "srboljub_stojadinovic_ingka_ikea_com_4047216642",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4020,7 +4020,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "t_t_com_874548262",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4051,7 +4051,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "temp_admin_com_787148651",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4082,7 +4082,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "test_test_com_4019464682",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4113,7 +4113,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "vardhraj_savalgi_ingka_ikea_com_1404368425",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4154,7 +4154,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "viktor_palmkvist2_ingka_ikea_com_2308160288",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4185,7 +4185,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "webrtc_ingka_com_245341667",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4216,7 +4216,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "wildtest_ikea_com_3247757380",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4247,7 +4247,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "yasir_saddiq_ingka_com_3041214908",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4278,7 +4278,7 @@
       "mode": "managed",
       "type": "genesyscloud_user",
       "name": "zoltan_czifra_ingka_ikea_com_1738269257",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4309,7 +4309,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Altreb_Antioch_Raul_genesys_com_4073464915",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4404,7 +4404,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Harsha_Belur_Ashok_genesys_com_3377487542",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4502,7 +4502,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Jean_Alexis_Dulay_genesys_com_45030378",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4591,7 +4591,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Laurent_Pret_genesys_com_3224743020",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4686,7 +4686,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Maikel_Beerens_genesys_com_228681623",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4781,7 +4781,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Pavithra_Girirajanna_genesys_com_2583587785",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4798,7 +4798,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Raymond_Marchand_genesys_com_3531735066",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4815,7 +4815,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Tanuj_Kothari_genesys_com_2097505566",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -4937,7 +4937,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Tytus_Bunka_genesys_com_312749222",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5050,7 +5050,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "Vikashini_Loganathan_genesys_com_51830341",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5139,7 +5139,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "alaeddine_jmila_genesys_com_3446166190",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5156,7 +5156,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "amit_kumar16_ingka_com_3872316414",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5173,7 +5173,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "anna_kack1_ingka_ikea_com_4244439775",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5247,7 +5247,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "annatestikea_gmail_com_2778193602",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5279,7 +5279,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "antonio_arfe1_ingka_com_1026943487",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5296,7 +5296,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "arvind_gupta2_ingka_com_610165725",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5328,7 +5328,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "axel_goteman_ingka_com_3811824575",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5345,7 +5345,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "aziz_surmeli_ingka_ikea_com_4256799695",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5368,7 +5368,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "bass_ikea_com_4099585611",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5400,7 +5400,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "bipin_chacko_ingka_com_3472755621",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5453,7 +5453,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "borivoj_rolovic_ingka_ikea_com_4042168859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5476,7 +5476,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "cecilia_agahi_boberg_ingka_ikea_com_3853569845",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5511,7 +5511,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "charlie_rydholm_ingka_com_2933720677",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5528,7 +5528,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "chris_thornton_ingka_ikea_com_2388306375",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5570,7 +5570,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "chris_wild_ingka_ikea_com_1253566165",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5632,7 +5632,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "daniel_crespo_ingka_ikea_com_3873443859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5658,7 +5658,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "daniel_evans_ingka_ikea_com_157098862",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5675,7 +5675,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "danny_chorley_ingka_ikea_com_1968271356",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5707,7 +5707,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "david_nilsson2_ingka_ikea_com_56941684",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5742,7 +5742,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "deepti_gupta2_ingka_com_3316421112",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5759,7 +5759,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "devanshi_genesys_com_3011029244",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5789,7 +5789,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "dominika_tavernova-turisanova_ingka_ikea_com_399371637",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5806,7 +5806,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "ekaterina_kononova_ingka_ikea_com_2036346015",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -5853,7 +5853,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "elango_sj_genesys_com_4184930861",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6083,7 +6083,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "enes_alisa_ingka_ikea_com_183938531",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6109,7 +6109,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gdpr2_ikea_com_3041253859",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6135,7 +6135,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gdpr_test_ikea_com_262472835",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6155,7 +6155,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gdpr_test_ikea_com_4210332496",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6181,7 +6181,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gerardandre_breivik_ingka_ikea_com_1347123535",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6204,7 +6204,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gero_haug_ingka_ikea_com_911041136",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6233,7 +6233,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "gopalreddy_pulakunta_ingka_com_99441618",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6259,7 +6259,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "harsha_belur_ashok_test_genesys_com_1341600767",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6285,7 +6285,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "himanshu_tiwari1_ingka_ikea_com_3369407284",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6314,7 +6314,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "isabel_clemente_magana_ingka_ikea_com_2361385048",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6350,7 +6350,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "isxautomation_gmail_com_2298643025",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6379,7 +6379,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "jessica_bjermer1_ingka_ikea_com_320537554",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6411,7 +6411,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "joakim_skalberg_genesys_com_3910624908",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6432,7 +6432,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "john_stapeley_ingka_ikea_com_2504790556",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6461,7 +6461,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "keith_griffin1_ingka_com_1507431387",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6487,7 +6487,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "lokeshwari_jayaraman_ingka_ikea_com_2820515905",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6520,7 +6520,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "magnus_angser1_ingka_ikea_com_1391179694",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6546,7 +6546,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "marcel_urrutia_nilsson_ingka_com_3687014012",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6575,7 +6575,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "martin_hultman_ingka_ikea_com_1979478014",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6592,7 +6592,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "martin_notodden_ingka_ikea_com_2964734638",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6624,7 +6624,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "mazen_saeed1_ingka_ikea_com_882845012",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6656,7 +6656,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "michael_daly_ingka_com_134670787",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6685,7 +6685,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "minli_xu_andersson_ingka_ikea_com_835250505",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6714,7 +6714,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "mohamed_nabil_hafez_ingka_ikea_com_2154619583",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6734,7 +6734,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "mohammad_kashif1_ingka_ikea_com_3518056687",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6763,7 +6763,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "mrtest_ikea_com_3389180835",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6786,7 +6786,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "natalia_shumakova1_ingka_com_3772982904",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6815,7 +6815,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "neil_syndeo_cx_2051929816",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6844,7 +6844,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "niklas_leidzen_ingka_ikea_com_2053285601",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6870,7 +6870,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "nser_katerji_ingka_ikea_com_3274852138",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6944,7 +6944,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "nuno_rodrigues2_ingka_com_741182740",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6973,7 +6973,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "ozlem_yakar_ingka_ikea_com_489125379",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -6999,7 +6999,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "pete_hoyle1_gmail_com_1745268380",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7028,7 +7028,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "pete_hoyle_genesys_com_1089448153",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7126,7 +7126,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "phelim_lennon_ingka_com_702027585",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7155,7 +7155,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "prasad_sawant1_ingka_com_2304854140",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7187,7 +7187,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "pratibha_bevinamatti_ingka_ikea_com_1904776481",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7216,7 +7216,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "radhika_saravgi_ingka_ikea_com_189342971",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7248,7 +7248,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "rene_guillot_genesys_com_1258304352",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7337,7 +7337,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "richa_gupta3_ingka_ikea_com_785115919",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7366,7 +7366,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "rjv_genesys_com_1416001142",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7500,7 +7500,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "robert_tonyka_genesys_com_1739414718",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7520,7 +7520,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "robert_veenendaal_genesys_com_2660596675",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7612,7 +7612,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "robin_sachdeva1_ingka_com_974881552",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7647,7 +7647,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "sandbox-user_ikea_ocm_692101565",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7667,7 +7667,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "sean_davids_ingka_ikea_com_705728052",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7693,7 +7693,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "seif_tabaja_ingka_ikea_com_1060838408",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7710,7 +7710,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "shazia_shafique_genesys_com_1153840280",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7799,7 +7799,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "srboljub_stojadinovic_ingka_ikea_com_4047216642",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7875,7 +7875,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "t_t_com_874548262",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7901,7 +7901,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "temp_admin_com_787148651",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7918,7 +7918,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "test_test_com_4019464682",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7938,7 +7938,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "vardhraj_savalgi_ingka_ikea_com_1404368425",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -7988,7 +7988,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "viktor_palmkvist2_ingka_ikea_com_2308160288",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -8005,7 +8005,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "webrtc_ingka_com_245341667",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -8022,7 +8022,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "wildtest_ikea_com_3247757380",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -8057,7 +8057,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "yasir_saddiq_ingka_com_3041214908",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,
@@ -8092,7 +8092,7 @@
       "mode": "managed",
       "type": "genesyscloud_user_roles",
       "name": "zoltan_czifra_ingka_ikea_com_1738269257",
-      "provider": "provider[\"registry.terraform.io/mypurecloud/genesyscloud\"]",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
       "instances": [
         {
           "schema_version": 1,

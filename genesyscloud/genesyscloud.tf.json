@@ -1,9 +1,687 @@
 {
   "resource": {
+    "genesyscloud_integration": {
+      "AWS_S3_Recording_Bulk_Actions_Integration_2752616418": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "AmazonWebServicesARN": "34bee9a7-ca92-46f6-95b7-1cc7f549cb8d"
+            },
+            "name": "AWS S3 Recording Bulk Actions Integration",
+            "notes": null,
+            "properties": "{\"s3bucket\":\"genesysrecordingbucket\"}"
+          }
+        ],
+        "integration_type": "aws-s3-recording-bulk-actions-integration",
+        "intended_state": "ENABLED"
+      },
+      "Agent_Scripting_Data_Service_2860904688": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Agent Scripting Data Service",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://asdataservice.genesyscsp.com/?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-agentdata",
+        "intended_state": "ENABLED"
+      },
+      "Amazon_EventBridge_Source_1338165561": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Amazon EventBridge Source",
+            "notes": null,
+            "properties": "{\"awsAccountId\":\"854401258676\",\"awsAccountRegion\":\"us-west-2\",\"eventFilter\":[\"v2.analytics.conversation.{id}.metrics\"],\"eventSourceSuffix\":\"Comet1\"}"
+          }
+        ],
+        "integration_type": "amazon-eventbridge-source",
+        "intended_state": "DISABLED"
+      },
+      "Amazon_EventBridge_Source_Dialog_POC_3827720213": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Amazon EventBridge Source Dialog POC",
+            "notes": "POC for testing Dialog generated events",
+            "properties": "{\"awsAccountId\":\"854401258676\",\"awsAccountRegion\":\"eu-north-1\",\"eventFilter\":[\"v2.analytics.conversation.{id}.metrics\",\"v2.analytics.flow.{id}.metrics\",\"v2.detail.events.conversation.{id}.acd.end\",\"v2.detail.events.conversation.{id}.acd.start\",\"v2.detail.events.conversation.{id}.acw\",\"v2.detail.events.conversation.{id}.attributes\",\"v2.detail.events.conversation.{id}.customer.end\",\"v2.detail.events.conversation.{id}.customer.start\",\"v2.detail.events.conversation.{id}.flow.end\",\"v2.detail.events.conversation.{id}.flow.outcome\",\"v2.detail.events.conversation.{id}.flow.start\",\"v2.detail.events.conversation.{id}.outbound\",\"v2.detail.events.conversation.{id}.user.end\",\"v2.detail.events.conversation.{id}.user.start\",\"v2.detail.events.conversation.{id}.wrapup\",\"v2.routing.queues.{id}.users\",\"v2.users.{id}.activity\"],\"eventSourceSuffix\":\"dialog_poc\"}"
+          }
+        ],
+        "integration_type": "amazon-eventbridge-source",
+        "intended_state": "ENABLED"
+      },
+      "Amazon_EventBridge_Source_test1_1458076808": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Amazon EventBridge Source test1",
+            "notes": null,
+            "properties": "{\"awsAccountId\":\"854401258676\",\"awsAccountRegion\":\"eu-north-1\",\"eventFilter\":[\"v2.analytics.conversation.{id}.metrics\"],\"eventSourceSuffix\":\"test1\"}"
+          }
+        ],
+        "integration_type": "amazon-eventbridge-source",
+        "intended_state": "DISABLED"
+      },
+      "Amazon_Event_Bridge_Survey_Orchestration_3485554485": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Amazon Event Bridge Survey Orchestration",
+            "notes": null,
+            "properties": "{\"awsAccountId\":\"854401258676\",\"awsAccountRegion\":\"eu-north-1\",\"eventFilter\":[\"v2.detail.events.conversation.{id}.attributes\",\"v2.detail.events.conversation.{id}.customer.end\",\"v2.detail.events.conversation.{id}.wrapup\",\"v2.detail.events.conversation.{id}.user.end\",\"v2.detail.events.conversation.{id}.acd.end\",\"v2.analytics.conversation.{id}.metrics\"],\"eventSourceSuffix\":\"Comet2\"}"
+          }
+        ],
+        "integration_type": "amazon-eventbridge-source",
+        "intended_state": "ENABLED"
+      },
+      "Automated_Callback_2167641346": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Automated Callback",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://automaticcallback.genesyscsp.com/?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-autocallback",
+        "intended_state": "ENABLED"
+      },
+      "Bulk_Skills_Administration_1166624565": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Bulk Skills Administration",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://bulkskillsadministration.genesyspsapps.com/?environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-bulkskills",
+        "intended_state": "ENABLED"
+      },
+      "Callflow_Data_Service_2942616978": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Callflow Data Service",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://dynatables.genesyscsp.com/?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-dynatables",
+        "intended_state": "ENABLED"
+      },
+      "Chat_Translation_Integration_via_Intento_1184906737": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Chat Translation Integration via Intento",
+            "notes": "Used to invoke an Intento Translation API",
+            "properties": "{\"api_key\":\"apikey\",\"api_url\":\"https://syncwrapper.inten.to/ai/text/translate\"}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "ENABLED"
+      },
+      "Client_Application__1__4234179500": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Client Application (1)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "DISABLED"
+      },
+      "Client_Application__Nuno_Test__2904573801": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Client Application (Nuno Test)",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groups\":[\"f0eb8fc2-b99f-4e8a-862a-86d2973eaac6\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://confluence.build.ingka.ikea.com/display/DIALOG/Help+Center\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "DISABLED"
+      },
+      "Coworker_Assist_4187482246": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Coworker Assist",
+            "notes": null,
+            "properties": "{\"communicationTypeFilter\":null,\"enableWorkitemFilter\":false,\"groups\":[\"515ca507-365c-4e55-af64-fcb6744ba48e\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals,allow-popups\",\"url\":\"https://cwa-dev.web.app/?conversationId={{gcConversationId}}\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "ENABLED"
+      },
+      "DIALOG_SMTP_Server_1835580628": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "basicAuth": "a0a8d389-8e0e-4132-975d-9b2372de462b"
+            },
+            "name": "DIALOG SMTP Server",
+            "notes": null,
+            "properties": "{\"contact\":\"email.fraud.protection@ingka.ikea.com\",\"maxEmailSize\":20,\"smtpHost\":\"mail11.ikea.com\",\"smtpPort\":587,\"useStartTls\":true}"
+          }
+        ],
+        "integration_type": "custom-smtp-server",
+        "intended_state": "ENABLED"
+      },
+      "Data_Privacy_Management_Console_3091184921": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Data Privacy Management Console",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"url\":\"https://dpmc.genesyscsp.com/home?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-dataprivacy",
+        "intended_state": "ENABLED"
+      },
+      "Email_Center-_SB_Testing_2486204871": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Email Center- SB_Testing",
+            "notes": "Dont modify any configuration - Vardhraj",
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groupFilter\":[\"158c7561-bc79-4f3a-9e4a-afc95d559508\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://emailproject-ab41e.web.app/login/{{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-email-center",
+        "intended_state": "ENABLED"
+      },
+      "Email_Center_-_From_App_foundry_2337366823": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Email Center - From App foundry",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groupFilter\":[\"e81e7f51-708e-4cbb-b8fd-f68796a3cf1a\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://emailproject-ab41e.web.app/login.mypurecloud.de\"}"
+          }
+        ],
+        "integration_type": "premium-app-email-center",
+        "intended_state": "DISABLED"
+      },
+      "Email_Ninja_1695022311": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Email Ninja",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://emailninjapremium.genesyscsp.com/email-ninja/index.html?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\\u0026usePopupAuth={{pcUsePopupAuth}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-email-preview",
+        "intended_state": "DISABLED"
+      },
+      "Email_Ninja_Sandbox_3388778054": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Email Ninja Sandbox",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groups\":[\"23be222a-5b94-480b-9091-c3ec25293233\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals,allow-popups,allow-downloads\",\"url\":\"https://d2vnt2yd6wnenj.cloudfront.net/email-ninja/index.html?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "ENABLED"
+      },
+      "GDPR_Division_Search_94797889": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "GDPR Division Search",
+            "notes": "Custom application that allows a GDPR Officer to search for customers by either Phone Number or Email, the result is a list of Divisions that handled the conversation",
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groups\":[\"24d0dc1b-c69d-45e8-a2f3-6be2f1fb80d0\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://d78ta307x1qcr.cloudfront.net?environment={{pcEnvironment}}\\u0026retentionPeriod=180\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "ENABLED"
+      },
+      "Genesys_Cloud_Data_Actions_548992367": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "pureCloudOAuthClient": "862a79d3-7114-4c6b-b786-764b6f0a0769"
+            },
+            "name": "Genesys Cloud Data Actions",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "ENABLED"
+      },
+      "Genesys_Cloud_Data_Actions_Direct_Routing_4099490244": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "pureCloudOAuthClient": "1042b533-473c-4e35-8e04-9b49f8ddaaaa"
+            },
+            "name": "Genesys Cloud Data Actions Direct Routing",
+            "notes": "For direct routing purpose only",
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "ENABLED"
+      },
+      "Genesys_Cloud_Data_Actions__1__833671661": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Genesys Cloud Data Actions (1)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "DISABLED"
+      },
+      "Genesys_Cloud_Data_Actions__2__884004436": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Genesys Cloud Data Actions (2)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "DISABLED"
+      },
+      "Genesys_Cloud_Monitoring_1842883612": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Genesys Cloud Monitoring",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groupFilter\":[\"e81e7f51-708e-4cbb-b8fd-f68796a3cf1a\",\"fd1b4306-e12c-4056-a799-4ed9270aad26\"],\"url\":\"https://gcm.genesysinnoapps.com?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-monitoring",
+        "intended_state": "ENABLED"
+      },
+      "Genesys_Knowledge_Portal_3803881213": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Genesys Knowledge Portal",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"groups\":[\"f0eb8fc2-b99f-4e8a-862a-86d2973eaac6\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://sumlautollner.github.io/kb-help-demo/\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "ENABLED"
+      },
+      "IMAP_Server_3581885597": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "IMAP Server",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "imap-server",
+        "intended_state": "DISABLED"
+      },
+      "Intento_Messaging_Translator_1435980624": {
+        "config": [
+          {
+            "advanced": "{\"icon\":{\"128x128\":\"https://raw.githubusercontent.com/GenesysCloudBlueprints/digital-messaging-translator-blueprint/main/blueprint/images/verbal-128x128.png\",\"256x256\":\"https://raw.githubusercontent.com/GenesysCloudBlueprints/digital-messaging-translator-blueprint/main/blueprint/images/verbal-256x256.png\",\"48x48\":\"https://raw.githubusercontent.com/GenesysCloudBlueprints/digital-messaging-translator-blueprint/main/blueprint/images/verbal-48x48.png\",\"96x96\":\"https://raw.githubusercontent.com/GenesysCloudBlueprints/digital-messaging-translator-blueprint/main/blueprint/images/verbal-96x96.png\"},\"lifecycle\":{\"ephemeral\":false,\"hooks\":{\"blur\":true,\"bootstrap\":true,\"focus\":true,\"stop\":true}},\"monochromicIcon\":{\"vector\":\"https://raw.githubusercontent.com/GenesysCloudBlueprints/digital-messaging-translator-blueprint/main/blueprint/images/verbal.svg\"}}",
+            "credentials": null,
+            "name": "Intento Messaging Translator",
+            "notes": null,
+            "properties": "{\"communicationTypeFilter\":\"chat, webmessaging, open\",\"enableWorkitemFilter\":false,\"groups\":[\"cfa1826d-b07f-4469-810e-78c2fbd48c62\"],\"permissions\":null,\"queueIdFilterList\":[\"2bef034e-7eb5-4210-9bd6-9f1690bc22cb\",\"198c127e-ae1e-4946-97aa-8776e2e66571\"],\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals,allow-popups,allow-downloads\",\"url\":\"https://connector-genesys.inten.to/?conversationid={{gcConversationId}}\\u0026language={{gcLangTag}}\\u0026translateApiKey=uj9424fau0d00uThaVAJlyluztqsqb-sl4UuCQV4WJI\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "ENABLED"
+      },
+      "Interaction_Widget_1462625269": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget",
+            "notes": null,
+            "properties": "{\"communicationTypeFilter\":\"chat\",\"groups\":[\"931df3ff-2b56-49cb-a8ae-52d2084bfe2e\"],\"permissions\":\"camera,clipboard-write,display-capture,fullscreen,geolocation,microphone\",\"queueIdFilterList\":[\"de72f918-6ce4-4ab6-bc5f-5d083850641d\"],\"sandbox\":\"allow-forms,allow-modals,allow-popups,allow-presentation,allow-same-origin,allow-scripts,allow-downloads\",\"url\":\"https://app.puresocial.cx/front/{{pcLangTag}}/{{pcEnvironment}}/{{pcConversationId}}/genesyscloud\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "ENABLED"
+      },
+      "Interaction_Widget__1__1973838803": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget (1)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Interaction_Widget__2__1957061198": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget (2)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Interaction_Widget__3__1940283645": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget (3)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Interaction_Widget__4__1923506024": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget (4)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Interaction_Widget__5__1906728327": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Interaction Widget (5)",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Language_Switcher_DEMO_2485942269": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Language Switcher DEMO",
+            "notes": null,
+            "properties": "{\"displayType\":\"widget\",\"featureCategory\":null,\"groups\":[\"1110aa18-e93f-4677-9e6c-a8332ad6b7dd\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"http://localhost:3000\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "ENABLED"
+      },
+      "Media_Switcher_2949944000": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Media Switcher",
+            "notes": null,
+            "properties": "{\"displayType\":\"widget\",\"featureCategory\":null,\"groups\":[\"54685163-62e9-450c-9a8e-1aabc4aade2b\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://d134w6bbtv5jgk.cloudfront.net/?environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "ENABLED"
+      },
+      "Mosaik_Tagging_1988447540": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Mosaik Tagging",
+            "notes": "Mosaik Tagging Widget",
+            "properties": "{\"communicationTypeFilter\":null,\"groups\":[\"dd119b46-992b-426e-9297-523b6d71c07d\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals,allow-popups\",\"url\":\"https://ingka-csc-ci-dev.web.app/tagConversation?lang=en\\u0026conversationId={{gcConversationId}}\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "DISABLED"
+      },
+      "Private_Genesys_Cloud_Embeddable_Framework_1455075472": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Private Genesys Cloud Embeddable Framework",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "embeddable-framework",
+        "intended_state": "DISABLED"
+      },
+      "PureSocial": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "PureSocial",
+            "notes": null,
+            "properties": "{\"displayType\":\"widget\",\"featureCategory\":null,\"groupFilter\":[\"931df3ff-2b56-49cb-a8ae-52d2084bfe2e\"],\"url\":\"https://app.puresocial.cx/appV2/{{pcLangTag}}/{{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-puresocial",
+        "intended_state": "DISABLED"
+      },
+      "RFC_Tool_3786868894": {
+        "config": [
+          {
+            "advanced": "{\"icon\":{\"24x24\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-24.png\",\"36x36\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-36.png\",\"48x48\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-48.png\",\"72x72\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-72.png\"},\"monochromicIcon\":{\"24x24\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-24.png\",\"36x36\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-36.png\",\"48x48\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-48.png\",\"72x72\":\"https://cdn4.iconfinder.com/data/icons/social-media-and-logos-12/32/Logo_telegram_Airplane_Air_plane_paper_airplane-33-72.png\"}}",
+            "credentials": null,
+            "name": "RFC Tool",
+            "notes": null,
+            "properties": "{\"communicationTypeFilter\":null,\"groups\":[\"dd119b46-992b-426e-9297-523b6d71c07d\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals\",\"url\":\"https://test.rfc-csc.com/csc?interactionId={gcConversationId}\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app-interaction-widget",
+        "intended_state": "ENABLED"
+      },
+      "SAP_Integration_Widget_4248526295": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "SAP Integration Widget",
+            "notes": null,
+            "properties": "{\"displayType\":\"widget\",\"featureCategory\":null,\"groups\":[\"e81e7f51-708e-4cbb-b8fd-f68796a3cf1a\"],\"permissions\":null,\"sandbox\":\"allow-scripts,allow-same-origin,allow-forms,allow-modals,allow-popups\",\"url\":\"http://localhost:3000/\"}"
+          }
+        ],
+        "integration_type": "embedded-client-app",
+        "intended_state": "DISABLED"
+      },
+      "SMS_Web_Services_Data_Actions_1677652431": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "basicAuth": "fe13fc14-e35c-46a6-a1f0-9b53c4d2d5c9"
+            },
+            "name": "SMS Web Services Data Actions",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "custom-rest-actions",
+        "intended_state": "ENABLED"
+      },
+      "SOAP_Adapter_1581839549": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "SOAP Adapter",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://resttosoap.genesyscsp.com/?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-resttosoap",
+        "intended_state": "ENABLED"
+      },
+      "SOAP_Adapter_Data_Action_2256818503": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "basicAuth": "c7a4a7a6-0329-40e4-ab67-f6249631a341"
+            },
+            "name": "SOAP Adapter Data Action",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "custom-rest-actions",
+        "intended_state": "ENABLED"
+      },
+      "StockcheckAvailability": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "basicAuth": "420b7de0-d6d6-4bbb-8500-ac2712075800"
+            },
+            "name": "StockcheckAvailability",
+            "notes": null,
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "custom-rest-actions",
+        "intended_state": "ENABLED"
+      },
+      "Syndeo_Messaging_Connector_-_Genesys_Cloud_APIs_958466317": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": {
+              "pureCloudOAuthClient": "82539dde-b654-4726-a9ed-e6525e242439"
+            },
+            "name": "Syndeo Messaging Connector - Genesys Cloud APIs",
+            "notes": "Syndeo Messaging Connector - Genesys Cloud APIs",
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "purecloud-data-actions",
+        "intended_state": "ENABLED"
+      },
+      "Syndeo_Messaging_Connector_-_REST_APIs_775260458": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "Syndeo Messaging Connector - REST APIs",
+            "notes": "Syndeo Messaging Connector - REST APIs",
+            "properties": "{}"
+          }
+        ],
+        "integration_type": "custom-rest-actions",
+        "intended_state": "ENABLED"
+      },
+      "User_Templates_1847953277": {
+        "config": [
+          {
+            "advanced": "{}",
+            "credentials": null,
+            "name": "User Templates",
+            "notes": null,
+            "properties": "{\"displayType\":\"standalone\",\"featureCategory\":null,\"url\":\"https://usertemplates.genesyscsp.com/?langTag={{pcLangTag}}\\u0026environment={{pcEnvironment}}\"}"
+          }
+        ],
+        "integration_type": "premium-app-usertemplates",
+        "intended_state": "ENABLED"
+      }
+    },
     "genesyscloud_user": {
-      "Harsha_Belur_Ashok_genesys_com_3377487542": {
+      "Altreb_Antioch_Raul_genesys_com_4073464915": {
         "acd_auto_answer": false,
         "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": "b630dc62-a2b4-49b7-a99f-ae1cce5c963a",
+        "email": "Altreb_Antioch.Raul@genesys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Altreb Antioch Raul",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": null
+      },
+      "Harsha_Belur_Ashok_genesys_com_3377487542": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": [
+              {
+                "address": "test@DialogTest.support.email.IKEA.com",
+                "type": "WORK"
+              }
+            ],
+            "phone_numbers": [
+              {
+                "extension": "+44 20 3318 1095",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
         "certifications": null,
         "department": null,
         "division_id": "b630dc62-a2b4-49b7-a99f-ae1cce5c963a",
@@ -169,6 +847,25 @@
         "routing_skills": null,
         "routing_utilization": null,
         "state": "inactive",
+        "title": null
+      },
+      "Tanuj_Kothari_genesys_com_2097505566": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": "b630dc62-a2b4-49b7-a99f-ae1cce5c963a",
+        "email": "Tanuj.Kothari@genesys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Tanuj Kothari",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
         "title": null
       },
       "Tytus_Bunka_genesys_com_312749222": {
@@ -992,7 +1689,7 @@
         "addresses": null,
         "certifications": null,
         "department": null,
-        "division_id": "9d79908b-80a0-461f-b132-49dfb3713ac3",
+        "division_id": "a25a98d3-2974-4567-a732-8824591730b1",
         "email": "harsha.belur_ashok_test@genesys.com",
         "employer_info": null,
         "locations": null,
@@ -1208,7 +1905,7 @@
           {
             "other_emails": [
               {
-                "address": "lokeshwari.jayaraman@ingka.ikea.com",
+                "address": "test@DialogTest.support.email.IKEA.com",
                 "type": "WORK"
               }
             ],
@@ -2249,18 +2946,11 @@
           {
             "other_emails": [
               {
-                "address": "vardhraj.savalgi@ingka.ikea.com",
+                "address": "test@dialogtest.support.email.ikea.com",
                 "type": "WORK"
               }
             ],
-            "phone_numbers": [
-              {
-                "extension": null,
-                "media_type": "PHONE",
-                "number": "+46730965998",
-                "type": "WORK"
-              }
-            ]
+            "phone_numbers": null
           }
         ],
         "certifications": null,
@@ -2281,7 +2971,12 @@
         "password": null,
         "profile_skills": null,
         "routing_languages": null,
-        "routing_skills": null,
+        "routing_skills": [
+          {
+            "proficiency": 0,
+            "skill_id": "c37a04f5-32b0-453f-b5b1-721f9a41df27"
+          }
+        ],
         "routing_utilization": null,
         "state": "active",
         "title": "Systems Engineer"
@@ -2383,6 +3078,167 @@
       }
     },
     "genesyscloud_user_roles": {
+      "Altreb_Antioch_Raul_genesys_com_4073464915": {
+        "roles": [
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "0d56e7f7-4703-4d91-9265-28bd9a0bc24c"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "13811ca6-e5df-45ee-8690-7f0982c6a179"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "1b01d7dd-cad6-469c-bcac-cd0e30037d65"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "227e3de8-8d2a-4d2e-bdc2-8adc8f594c39"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "2b254576-401a-433a-bcff-78b746bc23a3"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "3a034733-cf8f-4904-8475-c5d4c00fedce"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "3a60b116-56f4-42ec-b60a-1ce4574762fd"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "47ac5324-86bc-4dfc-b240-2a3f93e08969"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "561a4d1b-ebde-4591-a453-2e16541b4f6d"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "5ea2715b-b50f-429e-8394-1a3579457f1f"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "7dd2421b-fed9-4965-959f-36ac44b18d20"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8b93e754-cc8f-43ef-9c11-739962163f11"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8d6c7020-252c-415a-979f-441d6b6b1029"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8f0168c8-f8b7-42ba-b771-1d4649115a0c"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "a6da46a2-1bfd-442a-b2c0-8d778c6d5872"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "ad8543d7-915b-4d94-aae6-56c67c5684f7"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "b070d6ed-0c3b-4b49-90d2-e46f11812798"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "bbb9c3e2-f563-4117-ac6c-e574fcb8dfe8"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "c5cbbfcf-5a8d-4a37-a5d6-ffe8bef77fc2"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "ce756ab6-5a32-4161-ad27-b536ab341b29"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "db86928a-59e9-4219-abab-7d7eeed412c4"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "e33cd79a-1880-4e49-b5fd-987b57ec9a1a"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "e45ae909-9347-4182-a8c1-d221a9806ba6"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "f78f3ba8-ea81-4570-a8bd-6db26c29de58"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "fbbe1cb5-93d6-4c89-a565-3ee0d6a8dd54"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "fc8b784a-fa6e-4b9d-854b-cba26d9f3642"
+          }
+        ],
+        "user_id": "${genesyscloud_user.Altreb_Antioch_Raul_genesys_com_4073464915.id}"
+      },
       "Harsha_Belur_Ashok_genesys_com_3377487542": {
         "roles": [
           {
@@ -3028,6 +3884,221 @@
       "Raymond_Marchand_genesys_com_3531735066": {
         "roles": null,
         "user_id": "${genesyscloud_user.Raymond_Marchand_genesys_com_3531735066.id}"
+      },
+      "Tanuj_Kothari_genesys_com_2097505566": {
+        "roles": [
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "0d56e7f7-4703-4d91-9265-28bd9a0bc24c"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "13811ca6-e5df-45ee-8690-7f0982c6a179"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "1b01d7dd-cad6-469c-bcac-cd0e30037d65"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "227e3de8-8d2a-4d2e-bdc2-8adc8f594c39"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "2b254576-401a-433a-bcff-78b746bc23a3"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "3a034733-cf8f-4904-8475-c5d4c00fedce"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "3a60b116-56f4-42ec-b60a-1ce4574762fd"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "47ac5324-86bc-4dfc-b240-2a3f93e08969"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "561a4d1b-ebde-4591-a453-2e16541b4f6d"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "5ea2715b-b50f-429e-8394-1a3579457f1f"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "7dd2421b-fed9-4965-959f-36ac44b18d20"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8b93e754-cc8f-43ef-9c11-739962163f11"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8d6c7020-252c-415a-979f-441d6b6b1029"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "8f0168c8-f8b7-42ba-b771-1d4649115a0c"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "a6da46a2-1bfd-442a-b2c0-8d778c6d5872"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "ad8543d7-915b-4d94-aae6-56c67c5684f7"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "b070d6ed-0c3b-4b49-90d2-e46f11812798"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "bbb9c3e2-f563-4117-ac6c-e574fcb8dfe8"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "c5cbbfcf-5a8d-4a37-a5d6-ffe8bef77fc2"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "ce756ab6-5a32-4161-ad27-b536ab341b29"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "db86928a-59e9-4219-abab-7d7eeed412c4"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "e33cd79a-1880-4e49-b5fd-987b57ec9a1a"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "e45ae909-9347-4182-a8c1-d221a9806ba6"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "f78f3ba8-ea81-4570-a8bd-6db26c29de58"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "fbbe1cb5-93d6-4c89-a565-3ee0d6a8dd54"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "fc8b784a-fa6e-4b9d-854b-cba26d9f3642"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "0884364c-b6e1-4c3e-94e6-d6b24abc6faf"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "140b6d97-2ae9-4015-b4d9-3b2fffd65a6a"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "49ff5bb5-7416-46f3-87c1-1c4d7a668e29"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "4f984014-ca87-4f06-b309-b963140c3e6c"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "6ac21293-c4fc-4d45-a1d6-2c3e29a48536"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "949a0e41-d92d-410e-842a-09d38546eafe"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "b64397f1-6f84-49ba-a9b7-d46dc2349f53"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "e27c15c2-4193-42e8-9e3f-cc659997ede4"
+          },
+          {
+            "division_ids": [
+              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
+            ],
+            "role_id": "ed004f43-d7f9-4556-9b5a-ee16df4afc5e"
+          }
+        ],
+        "user_id": "${genesyscloud_user.Tanuj_Kothari_genesys_com_2097505566.id}"
       },
       "Tytus_Bunka_genesys_com_312749222": {
         "roles": [
@@ -4710,30 +5781,19 @@
         "roles": [
           {
             "division_ids": [
-              "*"
+              "a25a98d3-2974-4567-a732-8824591730b1"
             ],
             "role_id": "2920a86a-2465-4b10-a09e-31942b5205e8"
           },
           {
             "division_ids": [
-              "*"
+              "a25a98d3-2974-4567-a732-8824591730b1"
             ],
-            "role_id": "ad8543d7-915b-4d94-aae6-56c67c5684f7"
+            "role_id": "d1ef7ab7-2246-47d5-aadc-3a51e8eb6ddb"
           },
           {
             "division_ids": [
-              "1ceb0dcb-d018-434c-bd84-2fa9b820fa13",
-              "2eeb239b-a48c-4e03-9f80-93a976078ceb",
-              "410de354-c6eb-45e1-ac20-b57e32100b65",
-              "55b206d1-96f4-4704-8823-4afb9dbdeba5",
-              "7a708485-e9b2-4377-92b1-54c3097a7ac4",
-              "9d79908b-80a0-461f-b132-49dfb3713ac3",
-              "a25a98d3-2974-4567-a732-8824591730b1",
-              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a",
-              "d51a12c3-2345-4fcd-9c50-7b095f088346",
-              "d6dac4c6-c65f-4062-95c6-c166417481b2",
-              "f023b698-ce82-46db-904e-7898c96ba1c8",
-              "f44b759a-16b4-4fdc-aa0a-9e694a5d6cea"
+              "a25a98d3-2974-4567-a732-8824591730b1"
             ],
             "role_id": "e27c15c2-4193-42e8-9e3f-cc659997ede4"
           }
@@ -6759,6 +7819,24 @@
             "division_ids": [
               "*"
             ],
+            "role_id": "561a4d1b-ebde-4591-a453-2e16541b4f6d"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "ad8543d7-915b-4d94-aae6-56c67c5684f7"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "c5cbbfcf-5a8d-4a37-a5d6-ffe8bef77fc2"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
             "role_id": "e27c15c2-4193-42e8-9e3f-cc659997ede4"
           },
           {
@@ -6766,6 +7844,12 @@
               "*"
             ],
             "role_id": "e33cd79a-1880-4e49-b5fd-987b57ec9a1a"
+          },
+          {
+            "division_ids": [
+              "*"
+            ],
+            "role_id": "f78f3ba8-ea81-4570-a8bd-6db26c29de58"
           },
           {
             "division_ids": [
@@ -6783,19 +7867,7 @@
             "division_ids": [
               "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
             ],
-            "role_id": "ad8543d7-915b-4d94-aae6-56c67c5684f7"
-          },
-          {
-            "division_ids": [
-              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
-            ],
             "role_id": "c4910d18-5b62-46b1-b57d-474346d2340d"
-          },
-          {
-            "division_ids": [
-              "b630dc62-a2b4-49b7-a99f-ae1cce5c963a"
-            ],
-            "role_id": "f78f3ba8-ea81-4570-a8bd-6db26c29de58"
           }
         ],
         "user_id": "${genesyscloud_user.vardhraj_savalgi_ingka_ikea_com_1404368425.id}"
