@@ -23,6 +23,6 @@ provider "genesyscloud" {
 }
 resource "genesyscloud_tf_export" "export" {
   directory          = "./genesyscloud"
-  resource_types     = ["genesyscloud_user", "genesyscloud_user_roles", "genesyscloud_integration"]
   include_state_file = true
+  export_as_hcl = true
 }
